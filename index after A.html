@@ -8,6 +8,7 @@
 </head>
 <body>
 
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 
     <nav class="navbar navbar-light bg-light">
         <a class="navbar-brand" href="#">Navigation bar</a>
@@ -23,7 +24,7 @@
       </div>
 
     
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
           <div class="col-sm-6 col-md-4 col-lg-3">
             <div class="card" style="width: 18rem;">
@@ -69,8 +70,9 @@
       </div>
 
       <!---->
+      <h2>Welcome Summer!</h2>
       <div class="container-fluid">
-        <div class="row">
+        <div class="row welcome-summer">
           <div class="col-sm-6 col-md-4 col-lg-2">
             <div class="card" style="width: 18rem;">
                 <img src="..." class="card-img-top" alt="...">
@@ -119,6 +121,8 @@
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                   <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
+                </div>
+            </div>
           <div class="col-sm-6 col-md-4 col-lg-2">
             <div class="card" style="width: 18rem;">
                 <img src="..." class="card-img-top" alt="...">
@@ -131,8 +135,25 @@
         </div>
       </div>
 
-
-
+      <!---->
+      <div class="container-fluid d-sm-none d-md-block mt-5" id="deal-of-the-day">
+        <div class="row">
+            <div class="col-8 w-66">
+              <img src="https://www.astons.com/assets/residences/spain/hero-8f0133ab87e65c31088b905f4e76f93ef899472e5c78df5ea29552313a9042a4.jpg" class="img-fluid" />
+            </div>
+            <div class="col-4 w-33">
+              <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Spain</h5>
+                  <p class="destination-price">€399 </p>
+                  <p class="destination-dates">4 nights</p>
+                  <p class="card-text">Enjoy beautiful spain in all it's glory. Come join us in natural Murcia</p>
+                  <a href="#" class="btn btn-primary">Book Now!</a>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
 
     <!--
 
@@ -185,9 +206,98 @@
         Ex 15) Create a function that adds a "HOT" badge to all the "Welcome Summer" offers
         Ex 16) Create a function to delete all "cards" from the page
       -->
-
-
-
+      <h2>Last Minute Deals!!</h2>
+      <div class="container-fluid">
+        <div class="row welcome-summer">
+          <div class="col-sm-6 col-md-4 col-lg-2">
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Marbella</h5>
+                  <a href="#" class="btn btn-primary"> Book Quickly!</a>
+                </div>
+              </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-2"> 
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Rome</h5>
+                  <a href="#" class="btn btn-primary">Book Quickly!</a>
+                </div>
+              </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-2">
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Paris</h5>
+                  
+                  <a href="#" class="btn btn-primary"> Book Quickly!</a>
+                </div>
+              </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-2">
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Greece</h5>
+                  
+                  <a href="#" class="btn btn-primary"> Book Quickly!</a>
+                </div>
+              </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-2"> 
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Rome</h5>
+                  <a href="#" class="btn btn-primary">Book Quick</a>
+                </div>
+                </div>
+            </div>
+          <div class="col-sm-6 col-md-4 col-lg-2">
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Greece</h5>
+                  <a href="#" class="btn btn-primary"> Book Quickly!</a>
+            </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+              <img   src="https://randomuser.me/api/portraits/men/11.jpg" class="rounded-circle mb-3"    alt="" />
+            </div>
+            <div class="col-sm-4">
+              <img   src="https://randomuser.me/api/portraits/men/11.jpg" class="rounded-circle mb-3"    alt="" />
+            </div>
+            <div class="col-sm-4">
+              <img   src="https://randomuser.me/api/portraits/men/11.jpg" class="rounded-circle mb-3"    alt="" />
+            </div>
+        </div>
+        </div>
+    </div>
+        <div class="row">
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Contact Info</h5>
+              <p class="card-text">Email: info@BigTouristAgency</p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <a href="#" class="btn btn-lg btn-primary">Contact Us!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 </body>
 
 </html>
