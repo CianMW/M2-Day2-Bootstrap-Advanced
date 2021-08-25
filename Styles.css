@@ -1,15 +1,41 @@
+body{
+    background-color: #d1cfdd;
+}
 .welcome-summer{
     box-shadow: 10px 10px lightgray;
 }
 .customer{
     height: 100%;
 }
+.jumbotron{
+    color: white;
+    background-image: url("https://blog.atastay.com/wp-content/uploads/2020/12/20-Beautiful-Waterfalls-In-Bali-For-Your-Vacation-Itineraries-1024x576.png") ;
+    background-size: cover;
+}
 h2{
     text-align: center;
 }
 .navbar{
-    background-color:93A8AC;
+    background-color:#6acec5;
+}
+.navbar-brand{
+    color: black;
+    font-weight: bolder;
+    text-shadow: 0.5px 0.5px darkslategray;
+}
+.nav-item{
+    color: black;
+    font-weight: bold;
 }
 .card{
     padding: 0;
+}
+.btn-primary{
+    background-color: #4650bf;
+    border-color: black;
+    border-width: 0.1em;
+}
+.btn:hover{
+    background-color: #bf8046;
+    border-color: black
 }
