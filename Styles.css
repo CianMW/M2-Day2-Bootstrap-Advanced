@@ -4,3 +4,9 @@
 .customer{
     height: 100%;
 }
+h2{
+    text-align: center;
+}
+.navbar{
+    background-color: blue;
+}
