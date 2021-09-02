@@ -316,10 +316,39 @@
             </div>
     
         <div class="col-sm-6">
-              <a href="#" class="btn btn-lg btn-primary">Contact Us!</a>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#contact-us">
+            Contact Us!
+          </button>
             </div>
           </div>
       </div>
+      <div class="modal fade" id="contact-us" tabindex="-1" aria-labelledby="contact-us" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="contact-usLabel">Modal title</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>Please give us your email to be added to our mailing list</p>
+              <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                  <small id="emailHelp" class="form-text text-muted">We promise to only send you spam</small>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="functions.js" type="javascript/text"></script>
 </body>
 
 </html>
