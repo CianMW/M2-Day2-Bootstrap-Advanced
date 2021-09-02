@@ -9,6 +9,7 @@
 <body>
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 
  
   <nav class="navbar navbar-custom navbar-expand-lg ">
@@ -26,7 +27,10 @@
     </div>
   </nav>
 
-  <div class="jumbotron">
+  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#jumbotron" aria-expanded="false" aria-controls="jumbotron">
+    Toggle jumbotron
+  </button>
+  <div class="jumbotron" id="jumbotron">
     <h1 class="display-4"><strong>Travel Time</strong></h1>
     <p class="lead"><strong>Travel time is the perfect site to help you find your holiday.</strong></p>
     <hr class="my-4">
@@ -34,7 +38,11 @@
     <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
   </div>
       <h2>Deal of the Week</h2>
-      <div class="container-fluid">
+
+      <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#deal-of-the-week" aria-expanded="false" aria-controls="deal-of-the-week">
+        Toggle Deal of the Week
+      </button>
+      <div class="container-fluid" id="deal-of-the-week">
         <div class="row">
           <div class="col-sm-6 col-md-4 col-lg-3">
             <div class="card" >
@@ -80,8 +88,10 @@
       </div>
 
       <!---->
-      <h2>Welcome Summer!</h2>
-      <div class="container-fluid ">
+      <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#welcome-summer" aria-expanded="false" aria-controls="welcome-summer">
+        Toggle Welcome Summer
+      </button>
+      <div class="container-fluid" id="welcome-summer">
         <div class="row welcome-summer">
           <div class="col-sm-6 col-md-4 col-lg-2">
             <div class="card" >
@@ -208,15 +218,20 @@
         Ex 9) Create a section "Last Minute", in which you'll display the pictures of the destinations as Cards
         Ex 10) Create a "Testimonial" section, in which the user can find several feedbacks from fake customers
         Ex 11) Create a footer with the company informations and a "Contact Us" button
-
-        Ex 11) Create a button next to each section to collapse and reopen the given section
-        Ex 12) Create a method that counts the number of "travels" on the page
-        Ex 13) Create a modal view with a message and a email field
-        Ex 14) When the user clicks on "contact us" the modal is displayed
-        Ex 15) Create a function that adds a "HOT" badge to all the "Welcome Summer" offers
-        Ex 16) Create a function to delete all "cards" from the page
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! finished until here
+        Ex 12) Create a button next to each section to collapse and reopen the given section
+        Ex 13) Create a method that counts the number of "travels" on the page
+        Ex 14) Create a modal view with a message and a email field
+        Ex 15) When the user clicks on "contact us" the modal is displayed
+        Ex 16) Create a function that adds a "HOT" badge to all the "Welcome Summer" offers
+        Ex 17) Create a function to delete all "cards" from the page
       -->
+
+      <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#last-minute-deals" aria-expanded="false" aria-controls="last-minute-deals">
+        Toggle Last Minute Deals
+      </button>
       <h2>Last Minute Deals!!</h2>
+      <div id="last-minute-deals">
       <div class="container-fluid">
         <div class="row welcome-summer">
           <div class="col-sm-6 col-md-4 col-lg-2">
@@ -275,7 +290,10 @@
             </div>
         </div>
       </div>
-      <div class="container-fluid">
+      </div>
+      </div>
+      
+      <div class="container container-fluid">
         <div class="row">
             <div class="col-sm-4">
               <img   src="https://randomuser.me/api/portraits/men/11.jpg" class="rounded-circle mb-3"    alt="" />
