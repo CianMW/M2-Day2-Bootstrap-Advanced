@@ -9,3 +9,24 @@ buttonLocation.addEventListener("click", e =>{
   i++;
 }
 })
+
+
+let newBadgeNode = document.createElement("span")
+    newBadgeNode.classList.add("badge")
+    newBadgeNode.classList.add("badge-danger")
+    newBadgeNode.innerHTML = "HOT"
+
+
+let summerLocationButtons = document.querySelectorAll("#welcome-summer p")
+let onClickLocation = document.getElementById("welcome-summer")
+    onClickLocation.addEventListener("mouseover", e =>{
+        let i = 0;
+        let newBadgeNode = document.createElement("p")
+    newBadgeNode.classList.add("badge")
+    newBadgeNode.classList.add("badge-danger")
+    newBadgeNode.innerHTML = "HOT"
+    
+        while (i < summerLocationButtons.length) {
+      summerLocationButtons[i].appendChild(newBadgeNode);
+      i++;
+    }})
